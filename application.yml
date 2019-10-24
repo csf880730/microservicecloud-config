@@ -14,7 +14,17 @@ spring:
   application:
     name: microservicecloud-config-atguigu-dev
 
+---
+spring:
+  profiles: pro   #生产环境
+  application:
+    name: microservicecloud-config-atguigu-dev
 
+---
+spring:
+  profiles: fabu   #发布环境
+  application:
+    name: microservicecloud-config-atguigu-dev
 
 
 
